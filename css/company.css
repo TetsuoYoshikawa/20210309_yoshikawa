@@ -101,9 +101,6 @@ img {
 .menu {
   display: none;
 }
-.drawer-nav {
-  display: none;
-}
 
 /*------------------------*/
 /*         contact        */
@@ -139,13 +136,6 @@ th {
   padding: 20px 30px;
   width:30%;
 }
-
-
-/*------------------------*/
-/*         contact        */
-/*------------------------*/
-
-
 
 .bottom-contact {
   background-color: #f5f6f9;
