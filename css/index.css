@@ -11,6 +11,11 @@ body {
   line-height: 1.6;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -102,8 +107,7 @@ a {
   background-size: cover;
   background-position: center;
   display: flex;
-  width:100%;
-  height:600px;
+  height:590px;
   color:white;
   justify-content: center;
   align-items: center;
@@ -225,6 +229,10 @@ a {
   align-items: center;
 }
 
+.news-item-ttl{
+  font-weight:bold;
+}
+
 .news-item:not(:first-child){
   margin-top: 10px;
 }
@@ -242,10 +250,8 @@ a {
   width: 1080px;
   margin: 0 auto;
 }
-.blog-titles{
-  text-align: center;
-  padding-bottom:25px;
-  font-size: 30px;
+.blog-title{
+  font-weight:bold;
 }
 
 .blog-wrap{
@@ -465,7 +471,7 @@ a {
 
   .footer-nav-item {
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
     width: 100%;
   }
 
