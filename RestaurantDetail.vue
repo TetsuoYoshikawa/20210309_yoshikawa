@@ -1,0 +1,5 @@
+<template>
+  <div>
+    <HeaderAuth />
+    <
+</template>
